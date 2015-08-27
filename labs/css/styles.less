@@ -1,0 +1,87 @@
+.raml-labs-home-logo {
+  background: black url('../images/raml-labs-header.png') no-repeat center;
+  height: 300px;
+  width: 100%;
+}
+
+.ts-SignatureHelpItems {
+  border: 4px solid grey;
+  .ts-SignatureHelpItem {
+    &.ts-selected {
+      background-color: #f9ffbf;
+    }
+    border: 2px solid grey;
+    .ts-SignatureHelpItem-argument {
+      display: inline;
+      &.ts-selected {
+        border: 1px solid grey;
+      }
+    }
+  }
+}
+
+.ts-SymbolDisplayPart {
+  display: inline;
+  font-family: Monaco, "Lucida Console", monospace;
+}
+
+
+/*
+    enum SymbolDisplayPartKind {
+        aliasName = 0,
+        className = 1,
+        enumName = 2,
+        fieldName = 3,
+        interfaceName = 4,
+        keyword = 5,
+        lineBreak = 6,
+        numericLiteral = 7,
+        stringLiteral = 8,
+        localName = 9,
+        methodName = 10,
+        moduleName = 11,
+        operator = 12,
+        parameterName = 13,
+        propertyName = 14,
+        punctuation = 15,
+        space = 16,
+        text = 17,
+        typeParameterName = 18,
+        enumMemberName = 19,
+        functionName = 20,
+        regularExpressionLiteral = 21,
+    }
+*/
+.ts-SymbolDisplayPartKind-aliasName {
+  color: darkgrey;
+}
+.ts-SymbolDisplayPartKind-className {
+  color: darkgrey;
+}
+.ts-SymbolDisplayPartKind-enumName {
+  color: darkgrey;
+}
+.ts-SymbolDisplayPartKind-fieldName {
+  color: darkgrey;
+}
+.ts-SymbolDisplayPartKind-interfaceName {
+  color: darkgrey;
+}
+.ts-SymbolDisplayPartKind-keyword {
+  color: darkgrey;
+}
+// ...
+.ts-SymbolDisplayPartKind-parameterName {
+  color: blue;
+}
+
+
+.ts-SymbolDisplayPartKind-punctuation {
+  color: darkgrey;
+}
+
+
+
+.CodeMirror-hint {
+  max-width: 40em;
+}
